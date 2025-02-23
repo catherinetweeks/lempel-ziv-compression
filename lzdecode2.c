@@ -7,7 +7,7 @@ int main() {
     int N;
     scanf("%d", &N);
     
-// fill dictionary with values
+// fill dictionary with letters
     char* dictionary = malloc(N * sizeof(char));
     for (int i = 0; i < N; i++) {
         int ascii_code;
@@ -19,7 +19,7 @@ int main() {
     int M;
     scanf("%d", &M);
     
-// read and print
+// read letters into word and print
     for (int i = 0; i < M; i++) {
         int index;
         scanf("%d", &index);
